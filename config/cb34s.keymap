@@ -250,7 +250,7 @@
     &kp Q         &kp W  &kp E      &kp R      &kp T           &kp Y        &kp U      &kp I     &kp O    &kp P
     &kp A         &kp S  &kp D      &kp F      &kp G           &kp H        &kp J      &kp K     &kp L    &kp BACKSPACE
     &mtp LCTRL Z  &kp X  &kp C      &kp V      &kp B           &kp N        &kp M      &kp COMMA &kp DOT  &mtp LALT FSLH
-                                    &mo NUM_L  &mtp LGUI SPACE &shifty      &kp TAB
+                                    &mo NUM_L  &mtp LGUI SPACE &shifty      &ltp OPT_L TAB
             >;
         };
     
@@ -268,9 +268,9 @@
         num_layer {
             label = "Numb";
             bindings = <
-           &kp BSLH         &kp LBKT     &kp RBKT     &mc_tilde   &mc_grave        &mc_quote      &mt N1         &kp N2       &kp N3       &mt N4
+           &kp BSLH         &kp LBKT     &kp RBKT     &mc_tilde   &mc_grave        &mc_quote      &kp N1         &kp N2       &kp N3       &kp N4
            &sk RGUI         &kp LPRN     &kp RPRN     &kp COLON   &kp SEMI         &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT    &kp MINUS
-           &mtp RCTRL PIPE  &kp LBRC     &kp RBRC     &kp EQUAL   &kp PLUS         &mc_ss         &mt N5         &mt N6       &mt N7       &mtp RALT N8
+           &mtp RCTRL PIPE  &kp LBRC     &kp RBRC     &kp EQUAL   &kp PLUS         &mc_ss         &kp N5         &kp N6       &kp N7       &mtp RALT N8
                                                       &trans      &trans           &mt LSHIFT N9  &kp N0
             >;
         };
