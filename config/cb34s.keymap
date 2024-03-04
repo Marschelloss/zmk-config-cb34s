@@ -174,12 +174,6 @@
             bindings = <&kp TAB>;
             layers = <0>;
         };
-        combo_shift_tab {
-            timeout-ms = <35>;
-            key-positions = <21 22>;
-            bindings = <&kp LA(TAB)>;
-            layers = <0>;
-        };
         combo_colon {
             timeout-ms = <35>;
             key-positions = <26 27>;
