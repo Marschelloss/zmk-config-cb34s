@@ -7,9 +7,13 @@ manifest:
     - name: AakashDabas
       url-base: https://github.com/AakashDabas
   projects:
+    # - name: zmk
+    #   remote: AakashDabas
+    #   revision: animated_widgets
+    #   import: app/west.yml
     - name: zmk
-      remote: AakashDabas
-      revision: animated_widgets
+      remote: urob
+      revision: main
       import: app/west.yml
   self:
     path: config
