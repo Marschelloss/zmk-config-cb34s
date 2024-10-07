@@ -26,10 +26,6 @@
 
 // Keymap
 / {
-    chosen {
-        zmk,matrix_transform = &ortho_transform;
-    };
-
     behaviors {
         ltpd: layer_tap_preferred_dead {
             compatible = "zmk,behavior-hold-tap";
