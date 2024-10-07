@@ -186,7 +186,7 @@
             &kp Q          &kp W      &kp E       &kp R          &kp T               &kp Y       &kp U       &kp I       &kp O             &kp P
             &kp A          &kp S      &kp D       &kp F          &kp G               &kp H       &kp J       &kp K       &kp L             &kp BKSP
             &mtp LCTRL Z   &kp X      &kp C       &kp V          &kp B               &kp N       &kp M       &kp COMMA   &lt OPT_L DOT     &mtp LALT FSLH
-                                                  &mo NUM_L      &mtp LGUI SPACE     &shifty     &ltpd SYM_L
+                                                  &mo NUM_L      &mtp LGUI SPACE     &shifty     &ltpd SYM_L I
             >;
         };
 
