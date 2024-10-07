@@ -6,14 +6,20 @@ manifest:
       url-base: https://github.com/urob
     - name: AakashDabas
       url-base: https://github.com/AakashDabas
+    - name: marschelloss
+      url-base: https://github.com/Marschelloss
   projects:
     # - name: zmk
     #   remote: AakashDabas
     #   revision: animated_widgets
     #   import: app/west.yml
     - name: zmk
-      remote: urob
-      revision: main
+      remote: marschelloss
+      revision: pr2027-updated
       import: app/west.yml
+    # - name: zmk
+    #   remote: urob
+    #   revision: main
+    #   import: app/west.yml
   self:
     path: config
