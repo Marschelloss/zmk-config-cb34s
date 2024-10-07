@@ -31,7 +31,7 @@
     };
 
     behaviors {
-        ltpd: layer_tap_preferred {
+        ltpd: layer_tap_preferred_dead {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_PREFERRED_DEAD";
             #binding-cells = <2>;
